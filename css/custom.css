@@ -1,0 +1,466 @@
+/* Police personnalisé */
+@font-face
+{
+	font-family: "kestoy_selfie-webfont";
+	src: url('../fonts/kestoy_selfie-webfont.woff2') format('woff2'),url('../fonts/kestoy_selfie-webfont.woff') format('woff'), url('../fonts/kestoy_selfie-webfont.ttf') format('ttf'), url('../fonts/kestoy_selfie-webfont.svg') format('svg'), url('../fonts/kestoy_selfie-webfont.eot') format('eot');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body
+{
+	font-family:Arial, Open Sans, sans-serif!important;
+	background-color:black;
+	color:white;
+}
+
+h1
+{
+	font-family: "kestoy_selfie-webfont",Arial, Open Sans, sans-serif!important;
+    font-weight: bold;
+    color:#6e3300;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+h2
+{
+	font-size:35px;
+	color:#AE642D;
+}
+
+h3
+{
+	font-size:25px;
+	color:#AE642D;
+}
+
+
+p
+{
+	font-family: 'Lato', Arial, Open Sans, sans-serif!important;
+}
+
+/*--------------------header barre de navigation ---------------*/
+a.nav-link
+{
+	color:white!important;
+	font-size:1.1em;
+	/* elements barre de navigation  */
+}
+
+a.nav-link:hover
+{
+	color:#AE642D!important;
+}
+
+a.navbar-brand
+{
+	font-family:  'Lato', "kestoy_selfie-webfont",Arial, Open Sans, sans-serif;
+	color:#AE642D;
+	font-weight:bold;
+}
+
+nav#mainNav
+{
+	background-color:#141414!important;
+}
+
+/* -------------- Section Carroussel --------------- */
+.carousel-inner
+{
+	min-width:100%;
+	height: auto;
+	/* images responsive Bootstrap */
+}
+
+#slider
+{
+	/* pas d'espace dans le slider */
+	padding:0;
+}
+
+a.btn, a.btn:hover
+{
+	background-color:#6e3300;
+	border-color:#6e3300;
+}
+
+
+.carousel-caption p{
+font-weight: bold;
+text-shadow: black 0.2em 0.2em 0.2em;
+}
+
+
+/*------------- Section Presentation du Festival ---------------- */
+
+
+#presentation{
+background-color:white;
+color:black;
+padding-bottom:10px;
+padding-top:10px;
+font-weight: bold;
+}
+
+#presentation a{
+color: #AE642D;
+font-weight:bold;
+}
+
+
+
+
+
+
+/* ------------- Section 1 ---- Le Festival ---------------------- */
+#lefestival
+{
+	padding-top:20px;
+	padding-bottom:30px;
+}
+
+
+
+/* ------------- Section 2 ---- Nos films ---------------------- */
+#nosfilms
+{
+	padding-top:20px;
+	padding-bottom:50px;
+	background-color:white;
+	color:black;
+}
+
+#nosfilms h2
+{
+	color:#6e3300;
+	font-weight:bold;
+}
+
+#nosfilms h3, .text-muted
+{
+	color:#AE642D!important;
+	font-weight:bold;
+}
+
+.text-muted
+{
+	/* titre h3 */
+	font-size:0.7em;
+}
+
+/* ------------- Section  ---- Notre programme ---------------------- */
+.img-programme
+{
+	width: 150px;
+	height:200px;
+}
+
+#title-programme
+{
+	/* block titre programme  avec telechargement*/
+	background-color:#252628;
+	max-height: 300px;
+	height:auto;
+	width:100%;
+	min-width: 0;
+	min-height: 0;
+}
+
+#notre-programme
+{
+	height:auto;
+	width:100%;
+	min-width: 0;
+	min-height: 0;
+}
+
+#container-programme p
+{
+	text-align:center;
+}
+
+#container-programme h2
+{
+	color:black;
+	background-color:white;
+}
+
+h2#programme
+{
+	color:white;
+}
+
+/* --------Section 3 Formulaire de Reservation ---------------------- */
+/* formulaire de reservation */
+#reservation
+{
+	background-color:#252628;
+	max-height: 1000px;
+	width:100%;
+}
+
+#inscription /* container fluid */
+
+{
+	padding-top:45px;
+	padding-bottom:30px;
+	width: 100%;
+	max-width: 600px;
+	background-color:#252628;
+}
+
+#title-programme
+{
+	max-width:100%;
+}
+
+#reservation h2
+{
+	color:white;
+	border:white;
+}
+
+#reservation a.btn
+{
+	background-color:black;
+	border-color:black;
+}
+
+button.btn
+{
+	background-color:black;
+	border:black;
+}
+
+button.btn:hover
+{
+	background-color:black;
+	border:black;
+}
+
+/*-------- Section 4 teaser Video --------------------- */
+#video
+{
+	height:100%;
+    padding-bottom:10px;
+	width:auto;
+}
+
+my-flex-items1
+{
+	padding:0!important;
+}
+
+my-flex-items2
+{
+	max-height:400px;
+}
+
+
+/*-------- Section actualités --------------------- */
+
+#actualites{
+background-color:white;
+color:black;
+}
+
+#actualites a.btn{
+color:white;
+}
+
+#actualites img{
+min-height:220px;
+max-height:220px;
+}
+
+#actualites .card-body{
+min-height:220px;
+max-height:220px;
+}
+
+h5.card-title{
+letter-spacing:0!important; /* texte espace entre chaque mots */ 
+margin-bottom:0!important;  /* espace entre le titre et date de publi */
+}
+
+.publi{     /* date de publication d'article */
+font-size:12px;
+color:#ACACAC;
+}
+
+p.info-article{
+padding-top:10px;
+}
+
+
+
+/*-------- Section 5  Formulaire de contact --------------------- */
+#formulaire
+{
+	padding-top:20px;
+	padding-bottom:40px;
+}
+
+/*----------- footer-------------------------- */
+footer #footer-liens a
+{
+	display: block;
+	color: white;
+}
+
+footer #footer-liens a:hover
+{
+	color: white;
+	font-weight:bold;
+}
+
+#footer-liens h2
+{
+	/* toujours cible l'id avant la balise */
+	color:white;
+}
+
+footer a, a:hover
+{
+	color: #AE642D;
+}
+
+#footer-liens .container-fluid
+{
+	background-color:#5f3013;
+}
+
+/* ---------------------- Effets Spéciaux ------------------------- */
+/* opacité au survol */
+img:hover.rounded-circle,img:hover.featurette-image
+{
+	opacity: 0.5;
+	filter: alpha(opacity=100);
+	/* Pour IE8 et version anterieur */
+	transform: scale(1.1);
+	/* effet zoom */
+}
+
+a:hover/* Apparence au survol des liens */
+
+{
+	text-decoration: underline;
+	color:#fffff!important;
+	transform: scale(1.2);
+	/* effet zoom */
+}
+
+hr.featurette-divider
+{
+	/* ligne design */
+	background-color:black;
+	width:auto;
+	height:0.5px;
+}
+
+hr.featurette-divider2
+{
+	/* ligne design */
+	background-color:white!important;
+	width:auto;
+	height:0.5px;
+}
+
+.ligne-design
+{
+	background-color:white!important;
+}
+
+/* ------------- Icones -------------------------- */
+.glyph-icon svg
+{
+	width:16px;
+	height:16px;
+}
+
+/*------------------------------- Styles pour cette Media Queries ------------------------------*/
+/*breakpoint-xs: 0;
+breakpoint-sm: 576px;
+breakpoint-md: 768px;
+breakpoint-lg: 992px;
+breakpoint-xl: 1200px;
+*/
+@media only screen and (max-device-width : 768px)
+{
+	/* responsive */
+	body
+	{
+		padding-right:0px;
+	}
+
+	footer
+	{
+		padding-top:60px;
+	}
+
+	h2
+	{
+		padding-top:10px;
+	}
+
+	a.nav-link:hover
+	{
+		text-align:center;
+		/* centrer le texte hover du menu au clic en responsive */
+	}
+
+	a.navbar-brand:hover
+	{
+		display: none;
+	}
+
+	#formulaire
+	{
+		padding-bottom:0px;
+	}
+
+	footer
+	{
+		padding-top:0px;
+	}
+
+	[class*="col-"]
+	{
+		/* largeur 100% */
+		width: 100%;
+	}
+}
+
+@media only screen and (min-device-width : 768px)
+{
+	/* tablette */
+	body
+	{
+		text-align:justify;
+	}
+
+	[class*="col-"]
+	{
+		/* largeur 100% */
+		width: 100%;
+	}
+}
+
+.map-responsive
+{
+	/* carte google maps responsive */
+	overflow:hidden;
+	padding-bottom:56.25%;
+	position:relative;
+	>height:0;
+}
+
+.map-responsive iframe
+{
+	left:0;
+	top:0;
+	height:100%;
+	width:100%;
+	position:absolute;
+}
