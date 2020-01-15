@@ -1,5 +1,5 @@
 # Projet3
-Festival des films de plein air - Projet Bootstrap (sans utilisation de cms)
+Festival des films de plein air - Projet Bootstrap (sans utilisation de cms et sans charte graphique)
 
 Url du Projet : https://www.celluledev.fr/projet3/
 
